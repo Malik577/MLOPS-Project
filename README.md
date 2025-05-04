@@ -1,39 +1,6 @@
 # Bank Marketing MLOps Project
 
-[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/downloads/)
-[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
-[![MLflow](https://img.shields.io/badge/MLflow-2.8.0-orange)](https://mlflow.org/)
-[![Flask](https://img.shields.io/badge/Flask-2.0.1-lightgrey)](https://flask.palletsprojects.com/)
-
 Predict whether a client will subscribe to a term deposit using a robust, production-ready MLOps pipeline powered by MLflow.
-
-## Architecture
-
-```mermaid
-graph TD
-    A[Data Collection] --> B[Data Preprocessing]
-    B --> C[Model Training]
-    C --> D[MLflow Tracking]
-    D --> E[Model Registry]
-    E --> F[Model Serving]
-    F --> G[API Endpoints]
-    G --> H[Real-time Monitoring]
-    H --> I[Drift Detection]
-    I --> J[Alert System]
-    
-    subgraph "MLflow Components"
-        D
-        E
-    end
-    
-    subgraph "Production Pipeline"
-        F
-        G
-        H
-        I
-        J
-    end
-```
 
 ---
 
