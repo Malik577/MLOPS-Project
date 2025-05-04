@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1746170017860
+current_stage: None
+description: null
+last_updated_timestamp: 1746170017860
+name: bank_marketing_model
+run_id: 0938c0c3b99a406597f078f4c8022ac6
+run_link: null
+source: file:///Users/malikalghossein/Desktop/Mlops1-project/src/mlruns/0/0938c0c3b99a406597f078f4c8022ac6/artifacts/model
+status: READY
+status_message: null
+storage_location: file:///Users/malikalghossein/Desktop/Mlops1-project/src/mlruns/0/0938c0c3b99a406597f078f4c8022ac6/artifacts/model
+user_id: null
+version: 1

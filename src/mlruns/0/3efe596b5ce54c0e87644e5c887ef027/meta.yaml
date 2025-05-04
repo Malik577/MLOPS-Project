@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/malikalghossein/Desktop/Mlops1-project/src/mlruns/0/3efe596b5ce54c0e87644e5c887ef027/artifacts
+deleted_time: 1746172853950
+end_time: 1746172567617
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 3efe596b5ce54c0e87644e5c887ef027
+run_name: gradient_boosting
+run_uuid: 3efe596b5ce54c0e87644e5c887ef027
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746172562827
+status: 3
+tags: []
+user_id: malikalghossein

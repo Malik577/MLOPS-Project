@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/malikalghossein/Desktop/Mlops1-project/src/mlruns/0/85b1dc50b47e40e19d88a076632a319d/artifacts
+deleted_time: 1746367657528
+end_time: 1746292946956
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 85b1dc50b47e40e19d88a076632a319d
+run_name: kindly-bat-63
+run_uuid: 85b1dc50b47e40e19d88a076632a319d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746292937512
+status: 3
+tags: []
+user_id: malikalghossein

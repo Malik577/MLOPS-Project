@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/malikalghossein/Desktop/Mlops1-project/src/mlruns/0/6f3a559985cb4d4fae9a454274084b67/artifacts
+deleted_time: 1746172324947
+end_time: 1746169401101
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 6f3a559985cb4d4fae9a454274084b67
+run_name: placid-smelt-24
+run_uuid: 6f3a559985cb4d4fae9a454274084b67
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746169396486
+status: 3
+tags: []
+user_id: malikalghossein

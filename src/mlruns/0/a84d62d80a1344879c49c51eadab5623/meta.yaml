@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/malikalghossein/Desktop/Mlops1-project/src/mlruns/0/a84d62d80a1344879c49c51eadab5623/artifacts
+deleted_time: 1746172324958
+end_time: 1746168996653
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: a84d62d80a1344879c49c51eadab5623
+run_name: debonair-hog-67
+run_uuid: a84d62d80a1344879c49c51eadab5623
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746168991834
+status: 3
+tags: []
+user_id: malikalghossein

@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/malikalghossein/Desktop/Mlops1-project/src/mlruns/0/eb568622c6564944b3ee4f56adcc0a48/artifacts
+deleted_time: 1746172324947
+end_time: 1746169418230
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: eb568622c6564944b3ee4f56adcc0a48
+run_name: bemused-bird-796
+run_uuid: eb568622c6564944b3ee4f56adcc0a48
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746169404489
+status: 3
+tags: []
+user_id: malikalghossein

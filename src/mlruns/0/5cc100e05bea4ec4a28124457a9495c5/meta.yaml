@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/malikalghossein/Desktop/Mlops1-project/src/mlruns/0/5cc100e05bea4ec4a28124457a9495c5/artifacts
+deleted_time: 1746172324935
+end_time: 1746169474168
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 5cc100e05bea4ec4a28124457a9495c5
+run_name: grandiose-robin-989
+run_uuid: 5cc100e05bea4ec4a28124457a9495c5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746169470024
+status: 3
+tags: []
+user_id: malikalghossein

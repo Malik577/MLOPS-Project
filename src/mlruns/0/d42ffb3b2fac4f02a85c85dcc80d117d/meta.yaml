@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/malikalghossein/Desktop/Mlops1-project/src/mlruns/0/d42ffb3b2fac4f02a85c85dcc80d117d/artifacts
+end_time: 1746367467820
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d42ffb3b2fac4f02a85c85dcc80d117d
+run_name: logistic_regression
+run_uuid: d42ffb3b2fac4f02a85c85dcc80d117d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746367463792
+status: 3
+tags: []
+user_id: malikalghossein

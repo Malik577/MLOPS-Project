@@ -1,0 +1,37 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.2
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+is_signature_from_type_hint: false
+mlflow_version: 2.22.0
+model_size_bytes: 149688
+model_uuid: a4b4c90c75524c7486eb8452c0c46de5
+prompts: null
+run_id: 0938c0c3b99a406597f078f4c8022ac6
+signature:
+  inputs: '[{"type": "long", "name": "age", "required": true}, {"type": "string",
+    "name": "job", "required": true}, {"type": "string", "name": "marital", "required":
+    true}, {"type": "string", "name": "education", "required": true}, {"type": "string",
+    "name": "default", "required": true}, {"type": "long", "name": "balance", "required":
+    true}, {"type": "string", "name": "housing", "required": true}, {"type": "string",
+    "name": "loan", "required": true}, {"type": "string", "name": "contact", "required":
+    true}, {"type": "long", "name": "day", "required": true}, {"type": "string", "name":
+    "month", "required": true}, {"type": "long", "name": "duration", "required": true},
+    {"type": "long", "name": "campaign", "required": true}, {"type": "long", "name":
+    "pdays", "required": true}, {"type": "long", "name": "previous", "required": true},
+    {"type": "string", "name": "poutcome", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-05-02 07:13:33.726836'

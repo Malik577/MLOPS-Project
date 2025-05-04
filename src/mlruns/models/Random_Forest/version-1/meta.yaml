@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1746169474164
+current_stage: None
+description: null
+last_updated_timestamp: 1746169474164
+name: Random_Forest
+run_id: 5cc100e05bea4ec4a28124457a9495c5
+run_link: null
+source: file:///Users/malikalghossein/Desktop/Mlops1-project/src/mlruns/0/5cc100e05bea4ec4a28124457a9495c5/artifacts/model
+status: READY
+status_message: null
+storage_location: file:///Users/malikalghossein/Desktop/Mlops1-project/src/mlruns/0/5cc100e05bea4ec4a28124457a9495c5/artifacts/model
+user_id: null
+version: 1

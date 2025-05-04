@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/malikalghossein/Desktop/Mlops1-project/src/mlruns/0/c7f23f6199ce418fbd12547a57cfc08f/artifacts
+deleted_time: 1746172606570
+end_time: 1746172223974
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: c7f23f6199ce418fbd12547a57cfc08f
+run_name: industrious-bird-91
+run_uuid: c7f23f6199ce418fbd12547a57cfc08f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746172220108
+status: 3
+tags: []
+user_id: malikalghossein

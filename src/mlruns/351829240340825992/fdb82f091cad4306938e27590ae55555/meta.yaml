@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/malikalghossein/Desktop/Mlops1-project/src/mlruns/351829240340825992/fdb82f091cad4306938e27590ae55555/artifacts
+deleted_time: 1746171840590
+end_time: 1746171360307
+entry_point_name: ''
+experiment_id: '351829240340825992'
+lifecycle_stage: deleted
+run_id: fdb82f091cad4306938e27590ae55555
+run_name: baseline_metrics
+run_uuid: fdb82f091cad4306938e27590ae55555
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746171360292
+status: 3
+tags: []
+user_id: malikalghossein

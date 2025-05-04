@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/malikalghossein/Desktop/Mlops1-project/src/mlruns/0/c25aa235b1384995a3e8cb8983026e5c/artifacts
+deleted_time: 1746172324955
+end_time: 1746169013751
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: c25aa235b1384995a3e8cb8983026e5c
+run_name: capricious-wasp-920
+run_uuid: c25aa235b1384995a3e8cb8983026e5c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746169000066
+status: 3
+tags: []
+user_id: malikalghossein

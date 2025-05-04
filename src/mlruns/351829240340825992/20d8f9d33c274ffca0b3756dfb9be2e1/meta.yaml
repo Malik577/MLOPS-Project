@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/malikalghossein/Desktop/Mlops1-project/src/mlruns/351829240340825992/20d8f9d33c274ffca0b3756dfb9be2e1/artifacts
+deleted_time: 1746171840591
+end_time: 1746170978305
+entry_point_name: ''
+experiment_id: '351829240340825992'
+lifecycle_stage: deleted
+run_id: 20d8f9d33c274ffca0b3756dfb9be2e1
+run_name: monitoring_20250502_102938
+run_uuid: 20d8f9d33c274ffca0b3756dfb9be2e1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746170978289
+status: 3
+tags: []
+user_id: malikalghossein

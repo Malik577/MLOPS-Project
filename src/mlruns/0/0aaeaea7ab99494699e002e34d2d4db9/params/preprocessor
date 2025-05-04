@@ -1,0 +1,10 @@
+ColumnTransformer(transformers=[('num',
+                                 Pipeline(steps=[('scaler', StandardScaler())]),
+                                 ['age', 'balance', 'day', 'duration',
+                                  'campaign', 'pdays', 'previous']),
+                                ('cat',
+                                 Pipeline(steps=[('onehot',
+                                                  OneHotEncoder(handle_unknown='ignore'))]),
+                                 ['job', 'marital', 'education', 'default',
+                                  'housing', 'loan', 'contact', 'month',
+                                  'poutcome'])])

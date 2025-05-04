@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/malikalghossein/Desktop/Mlops1-project/src/mlruns/0/1690d9f64f8a4cf49cec6d46312721ea/artifacts
+deleted_time: 1746367657529
+end_time: 1746292922932
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 1690d9f64f8a4cf49cec6d46312721ea
+run_name: rogue-snake-635
+run_uuid: 1690d9f64f8a4cf49cec6d46312721ea
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746292909448
+status: 3
+tags: []
+user_id: malikalghossein

@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/malikalghossein/Desktop/Mlops1-project/src/mlruns/0/36b866017ef94032b6b0b2bc518fd5fe/artifacts
+deleted_time: 1746172606571
+end_time: 1746172134875
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 36b866017ef94032b6b0b2bc518fd5fe
+run_name: exultant-snake-983
+run_uuid: 36b866017ef94032b6b0b2bc518fd5fe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746172130318
+status: 3
+tags: []
+user_id: malikalghossein

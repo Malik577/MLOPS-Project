@@ -1,0 +1,21 @@
+Model type: random_forest
+Parameters: {'memory': None, 'steps': [('preprocessor', ColumnTransformer(transformers=[('num',
+                                 Pipeline(steps=[('scaler', StandardScaler())]),
+                                 ['age', 'balance', 'day', 'duration',
+                                  'campaign', 'pdays', 'previous']),
+                                ('cat',
+                                 Pipeline(steps=[('onehot',
+                                                  OneHotEncoder(handle_unknown='ignore'))]),
+                                 ['job', 'marital', 'education', 'default',
+                                  'housing', 'loan', 'contact', 'month',
+                                  'poutcome'])])), ('model', RandomForestClassifier())], 'transform_input': None, 'verbose': False, 'preprocessor': ColumnTransformer(transformers=[('num',
+                                 Pipeline(steps=[('scaler', StandardScaler())]),
+                                 ['age', 'balance', 'day', 'duration',
+                                  'campaign', 'pdays', 'previous']),
+                                ('cat',
+                                 Pipeline(steps=[('onehot',
+                                                  OneHotEncoder(handle_unknown='ignore'))]),
+                                 ['job', 'marital', 'education', 'default',
+                                  'housing', 'loan', 'contact', 'month',
+                                  'poutcome'])]), 'model': RandomForestClassifier(), 'preprocessor__force_int_remainder_cols': True, 'preprocessor__n_jobs': None, 'preprocessor__remainder': 'drop', 'preprocessor__sparse_threshold': 0.3, 'preprocessor__transformer_weights': None, 'preprocessor__transformers': [('num', Pipeline(steps=[('scaler', StandardScaler())]), ['age', 'balance', 'day', 'duration', 'campaign', 'pdays', 'previous']), ('cat', Pipeline(steps=[('onehot', OneHotEncoder(handle_unknown='ignore'))]), ['job', 'marital', 'education', 'default', 'housing', 'loan', 'contact', 'month', 'poutcome'])], 'preprocessor__verbose': False, 'preprocessor__verbose_feature_names_out': True, 'preprocessor__num': Pipeline(steps=[('scaler', StandardScaler())]), 'preprocessor__cat': Pipeline(steps=[('onehot', OneHotEncoder(handle_unknown='ignore'))]), 'preprocessor__num__memory': None, 'preprocessor__num__steps': [('scaler', StandardScaler())], 'preprocessor__num__transform_input': None, 'preprocessor__num__verbose': False, 'preprocessor__num__scaler': StandardScaler(), 'preprocessor__num__scaler__copy': True, 'preprocessor__num__scaler__with_mean': True, 'preprocessor__num__scaler__with_std': True, 'preprocessor__cat__memory': None, 'preprocessor__cat__steps': [('onehot', OneHotEncoder(handle_unknown='ignore'))], 'preprocessor__cat__transform_input': None, 'preprocessor__cat__verbose': False, 'preprocessor__cat__onehot': OneHotEncoder(handle_unknown='ignore'), 'preprocessor__cat__onehot__categories': 'auto', 'preprocessor__cat__onehot__drop': None, 'preprocessor__cat__onehot__dtype': <class 'numpy.float64'>, 'preprocessor__cat__onehot__feature_name_combiner': 'concat', 'preprocessor__cat__onehot__handle_unknown': 'ignore', 'preprocessor__cat__onehot__max_categories': None, 'preprocessor__cat__onehot__min_frequency': None, 'preprocessor__cat__onehot__sparse_output': True, 'model__bootstrap': True, 'model__ccp_alpha': 0.0, 'model__class_weight': None, 'model__criterion': 'gini', 'model__max_depth': None, 'model__max_features': 'sqrt', 'model__max_leaf_nodes': None, 'model__max_samples': None, 'model__min_impurity_decrease': 0.0, 'model__min_samples_leaf': 1, 'model__min_samples_split': 2, 'model__min_weight_fraction_leaf': 0.0, 'model__monotonic_cst': None, 'model__n_estimators': 100, 'model__n_jobs': None, 'model__oob_score': False, 'model__random_state': None, 'model__verbose': 0, 'model__warm_start': False}
+Metrics: {'accuracy': 0.8939226519337017, 'precision': 0.5238095238095238, 'recall': 0.22448979591836735, 'f1': 0.3142857142857143, 'roc_auc': np.float64(0.9218951521128897)}

@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/malikalghossein/Desktop/Mlops1-project/src/mlruns/351829240340825992/a61ffbb7d2244c70a7c00dbecfecca80/artifacts
+deleted_time: 1746171840594
+end_time: 1746170948255
+entry_point_name: ''
+experiment_id: '351829240340825992'
+lifecycle_stage: deleted
+run_id: a61ffbb7d2244c70a7c00dbecfecca80
+run_name: drift_alert_20250502_102908
+run_uuid: a61ffbb7d2244c70a7c00dbecfecca80
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746170948232
+status: 3
+tags: []
+user_id: malikalghossein

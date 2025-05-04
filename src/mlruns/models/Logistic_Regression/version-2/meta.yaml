@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1746172223969
+current_stage: None
+description: null
+last_updated_timestamp: 1746172223969
+name: logistic_regression
+run_id: c7f23f6199ce418fbd12547a57cfc08f
+run_link: null
+source: file:///Users/malikalghossein/Desktop/Mlops1-project/src/mlruns/0/c7f23f6199ce418fbd12547a57cfc08f/artifacts/model
+status: READY
+status_message: null
+storage_location: file:///Users/malikalghossein/Desktop/Mlops1-project/src/mlruns/0/c7f23f6199ce418fbd12547a57cfc08f/artifacts/model
+user_id: null
+version: 2

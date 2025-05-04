@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/malikalghossein/Desktop/Mlops1-project/src/mlruns/0/a6b721af8b85440abdd80e5fe3d89b7a/artifacts
+deleted_time: 1746367657529
+end_time: 1746292888648
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: a6b721af8b85440abdd80e5fe3d89b7a
+run_name: melodic-whale-165
+run_uuid: a6b721af8b85440abdd80e5fe3d89b7a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746292875813
+status: 3
+tags: []
+user_id: malikalghossein

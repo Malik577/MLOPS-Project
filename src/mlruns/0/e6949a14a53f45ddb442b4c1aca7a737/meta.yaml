@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/malikalghossein/Desktop/Mlops1-project/src/mlruns/0/e6949a14a53f45ddb442b4c1aca7a737/artifacts
+deleted_time: 1746172606570
+end_time: 1746172199162
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: e6949a14a53f45ddb442b4c1aca7a737
+run_name: vaunted-penguin-680
+run_uuid: e6949a14a53f45ddb442b4c1aca7a737
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746172194166
+status: 3
+tags: []
+user_id: malikalghossein

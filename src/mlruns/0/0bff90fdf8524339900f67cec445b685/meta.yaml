@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/malikalghossein/Desktop/Mlops1-project/src/mlruns/0/0bff90fdf8524339900f67cec445b685/artifacts
+deleted_time: 1746172324950
+end_time: 1746169054433
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 0bff90fdf8524339900f67cec445b685
+run_name: nervous-bird-976
+run_uuid: 0bff90fdf8524339900f67cec445b685
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746169042456
+status: 3
+tags: []
+user_id: malikalghossein

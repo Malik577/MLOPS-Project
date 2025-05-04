@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1746367449797
+current_stage: None
+description: null
+last_updated_timestamp: 1746367449797
+name: gradient_boosting
+run_id: 2aa354c4c33e4cb087cefda8e6064b18
+run_link: null
+source: file:///Users/malikalghossein/Desktop/Mlops1-project/src/mlruns/0/2aa354c4c33e4cb087cefda8e6064b18/artifacts/model
+status: READY
+status_message: null
+storage_location: file:///Users/malikalghossein/Desktop/Mlops1-project/src/mlruns/0/2aa354c4c33e4cb087cefda8e6064b18/artifacts/model
+user_id: null
+version: 8

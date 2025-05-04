@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/malikalghossein/Desktop/Mlops1-project/src/mlruns/0/97931285e9244bfbb0bc6b3601c8ee68/artifacts
+deleted_time: 1746367657529
+end_time: 1746294497510
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 97931285e9244bfbb0bc6b3601c8ee68
+run_name: unruly-slug-598
+run_uuid: 97931285e9244bfbb0bc6b3601c8ee68
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746294480995
+status: 3
+tags: []
+user_id: malikalghossein

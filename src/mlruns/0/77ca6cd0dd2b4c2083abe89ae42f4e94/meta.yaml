@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/malikalghossein/Desktop/Mlops1-project/src/mlruns/0/77ca6cd0dd2b4c2083abe89ae42f4e94/artifacts
+deleted_time: 1746367657541
+end_time: 1746189830853
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 77ca6cd0dd2b4c2083abe89ae42f4e94
+run_name: random_forest
+run_uuid: 77ca6cd0dd2b4c2083abe89ae42f4e94
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746189825623
+status: 3
+tags: []
+user_id: malikalghossein
