@@ -1,6 +1,39 @@
 # Bank Marketing MLOps Project
 
+[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/downloads/)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![MLflow](https://img.shields.io/badge/MLflow-2.8.0-orange)](https://mlflow.org/)
+[![Flask](https://img.shields.io/badge/Flask-2.0.1-lightgrey)](https://flask.palletsprojects.com/)
+
 Predict whether a client will subscribe to a term deposit using a robust, production-ready MLOps pipeline powered by MLflow.
+
+## Architecture
+
+```mermaid
+graph TD
+    A[Data Collection] --> B[Data Preprocessing]
+    B --> C[Model Training]
+    C --> D[MLflow Tracking]
+    D --> E[Model Registry]
+    E --> F[Model Serving]
+    F --> G[API Endpoints]
+    G --> H[Real-time Monitoring]
+    H --> I[Drift Detection]
+    I --> J[Alert System]
+    
+    subgraph "MLflow Components"
+        D
+        E
+    end
+    
+    subgraph "Production Pipeline"
+        F
+        G
+        H
+        I
+        J
+    end
+```
 
 ---
 
@@ -13,6 +46,10 @@ Mlops1-project/
 ├── models/                # Best and latest model files
 ├── monitoring/            # Monitoring outputs and drift plots
 ├── src/                   # All source code (training, serving, monitoring)
+│   ├── tests/            # Unit tests
+│   ├── train.py          # Model training script
+│   ├── serve_model.py    # Flask API server
+│   └── monitor_model.py  # Monitoring script
 ├── mlruns/                # MLflow experiment tracking (auto-generated)
 ├── .venv/                 # Python virtual environment
 ├── requirements.txt       # Python dependencies
@@ -60,6 +97,43 @@ Find the best model parameters:
 ```bash
 python hyperparameter_tuning.py --model_type random_forest --search_type random --n_iter 20
 ```
+
+### MLflow UI and Model Registry
+
+1. **Start MLflow UI**:
+   ```bash
+   mlflow ui --port 8081
+   ```
+   Access the UI at http://localhost:8081
+
+2. **Model Registry Usage**:
+   - **View Models**: Navigate to the "Models" tab in MLflow UI
+   - **Promote Models**:
+     ```python
+     # Using MLflow Python API
+     import mlflow
+     
+     # Promote model to Staging
+     mlflow.register_model(
+         "runs:/<run_id>/model",
+         "BankMarketingModel",
+         tags={"stage": "Staging"}
+     )
+     
+     # Promote to Production
+     client = mlflow.tracking.MlflowClient()
+     client.transition_model_version_stage(
+         name="BankMarketingModel",
+         version=1,
+         stage="Production"
+     )
+     ```
+
+3. **Model Stages**:
+   - **None**: Initial state
+   - **Staging**: Testing environment
+   - **Production**: Live environment
+   - **Archived**: Retired models
 
 ### Model Serving & API Endpoints
 
@@ -158,12 +232,27 @@ This runs continuous monitoring with hourly checks.
    - Model confidence scores
    - API response times
 
-### MLflow UI
-Track experiments, compare models, and manage the model registry:
+### Testing
+
+Run the test suite to ensure code reliability:
+
 ```bash
-mlflow ui --port 8081
+# Run all tests
+python -m pytest src/tests/
+
+# Run specific test file
+python -m pytest src/tests/test_model.py
+
+# Run with coverage report
+python -m pytest --cov=src src/tests/
 ```
-- Open http://localhost:8081 in your browser.
+
+Key test areas:
+- Model training and prediction
+- API endpoints
+- Data preprocessing
+- Monitoring functionality
+- Model registry operations
 
 ---
 
@@ -183,6 +272,7 @@ mlflow ui --port 8081
 - Production-ready Flask API: For real-time predictions.
 - Model monitoring: Detects drift and logs alerts/plots.
 - Clean, human-friendly structure: Easy to navigate and extend.
+- Comprehensive test suite: Ensures code reliability.
 
 ---
 
